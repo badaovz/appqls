@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivavatar"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_margin="10dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/tvtensach"
+        android:text="ten sach"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:maxWidth="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ivavatar"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvtheloai"
+        android:text="the loai"
+        android:textSize="18sp"
+        android:textColor="#939292"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ivavatar"
+        android:layout_below="@id/tvtensach"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/ivdelete"
+        android:layout_toLeftOf="@id/ivedit"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/delete"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <ImageView
+        android:id="@+id/ivedit"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+</RelativeLayout>
+</RelativeLayout>
